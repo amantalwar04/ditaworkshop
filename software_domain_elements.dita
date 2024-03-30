@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="software_domain_elements">
+    <title>Software Domain Elements</title>
+    <shortdesc>The software domain elements are designed for documenting the operation of a software program.</shortdesc>
+    <conbody>
+        <dl id="dl_frw_qkt_v1c">
+            <dlentry>
+                <dt>msgph</dt>
+                <dd>A <b>server</b> log entry of <msgph>I:0</msgph> is equivalent to the text message, <msgph>Information: successful</msgph>.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>msgblock</dt>
+                <dd>The following are the server log entry codes:<msgblock id="msgblock_ncc_plt_v1c">I:0
+I:1
+P:0
+P:1</msgblock></dd>
+            </dlentry>
+            <dlentry>
+                <dt>msgnum</dt>
+                <dd>A server log entry of <msgnum>I:0</msgnum> is equivalent to the text message, <msgph>Information: successful</msgph>.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>cmdname</dt>
+                <dd>Use the <cmdname>dir</cmdname> command to list all the files and folders in the selected directory.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>varname</dt>
+                <dd>Use the <cmdname>dir</cmdname>
+                    <varname>/p</varname> to pause at the end of each page. You need to press a key to see the rest of the information.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>filepath</dt>
+                <dd>The server log is saved in the <filepath>log.txt</filepath> file.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>userinput</dt>
+                <dd>After you type <userinput>cd..</userinput>, enter <cmdname>dir</cmdname> at the prompt</dd>
+            </dlentry>
+            <dlentry>
+                <dt>systemoutput</dt>
+                <dd>The following list of files and folders are listed at the console.<p><systemoutput>C:\Users>dir Volume in drive C is Windows Volume Serial Number is 0C88-EDA6 Directory of C:\Users 04/28/2023 01:53 AM &lt;DIR> . 04/28/2023 01:53 AM &lt;DIR> .. 04/17/2023 09:27 AM 6,940 #57BE7E20.jpg 04/17/2023 09:27 AM 25,600 #B3A5CEF4.xls 04/17/2023 09:27 AM 62,535 #C4685A48.pptx 04/17/2023 09:27 AM 43,008 #EAD94ED6.doc 04/17/2023 09:27 AM 25,600 $1AE4FBC0.xls 04/17/2023 09:27 AM 6,940 $8B65FB71.jpg 04/17/2023 09:27 AM 62,535 $906F56AB.pptx 04/17/2023 09:27 AM 43,008 $B86B6D9E.doc 06/16/2023 11:48 AM &lt;DIR> Administrator 04/28/2023 01:53 AM &lt;DIR> i30454.sa 03/04/2024 02:43 PM &lt;DIR> i62717 11/28/2023 10:56 AM &lt;DIR> I62717.LA 04/27/2023 10:13 AM &lt;DIR> Public 8 File(s) 276,166 bytes 7 Dir(s) 168,031,649,792 bytes free</systemoutput></p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

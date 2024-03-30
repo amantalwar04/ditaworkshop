@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Outline Project</title>
+    <topichead navtitle="Introduction">
+        <topicmeta>
+            <shortdesc>Provide an overview of the project.</shortdesc>
+        </topicmeta>
+    </topichead>
+    <topichead navtitle="Getting Started">
+        <topichead navtitle="Installation"/>
+        <topichead navtitle="System Requirements"/>
+    </topichead>
+    <topichead navtitle="Working with Project"/>
+    <topichead navtitle="Appendix"/>
+</map>

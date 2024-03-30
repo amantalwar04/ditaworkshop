@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="user_interface_domain_elements">
+    <title>User Interface Domain elements</title>
+    <conbody>
+        <p>The user interface domain elements are designed for documenting the user interface of a sw program.</p>
+        <dl id="dl_eql_3ht_v1c">
+            <dlentry>
+                <dt>uicontrol</dt>
+                <dd>user interface control<p>Click <uicontrol>File</uicontrol> and select <uicontrol>New</uicontrol> to launch the <uicontrol>New Project</uicontrol> dialog.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>menucascade</dt>
+                <dd>cascading a menu<p>Click <menucascade>
+                            <uicontrol>File</uicontrol>
+                            <uicontrol>New </uicontrol>
+                        </menucascade>to launch the New Project dialog.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>wintitle</dt>
+                <dd>Window title<p>Click <menucascade>
+                            <uicontrol>File</uicontrol>
+                            <uicontrol>New </uicontrol>
+                        </menucascade>to launch the <wintitle>New Project</wintitle> dialog.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>shortcut</dt>
+                <dd>Shortcut<p>Click <menucascade>
+                            <uicontrol>File</uicontrol>
+                            <uicontrol>New </uicontrol>
+                        </menucascade>to launch the <wintitle>New Project</wintitle> dialog. Alternatively, press <uicontrol><shortcut>Ctrl+N</shortcut></uicontrol> keys.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>screen</dt>
+                <dd>Character text only screen.<p>
+                        <screen id="screen_ahw_4jt_v1c">Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users>dir
+ Volume in drive C is Windows
+ Volume Serial Number is 0C88-EDA6
+
+ Directory of C:\Users
+
+04/28/2023  01:53 AM    &lt;DIR>          .
+04/28/2023  01:53 AM    &lt;DIR>          ..
+04/17/2023  09:27 AM             6,940 #57BE7E20.jpg
+04/17/2023  09:27 AM            25,600 #B3A5CEF4.xls
+04/17/2023  09:27 AM            62,535 #C4685A48.pptx
+04/17/2023  09:27 AM            43,008 #EAD94ED6.doc
+04/17/2023  09:27 AM            25,600 $1AE4FBC0.xls
+04/17/2023  09:27 AM             6,940 $8B65FB71.jpg
+04/17/2023  09:27 AM            62,535 $906F56AB.pptx
+04/17/2023  09:27 AM            43,008 $B86B6D9E.doc
+06/16/2023  11:48 AM    &lt;DIR>          Administrator
+04/28/2023  01:53 AM    &lt;DIR>          i30454.sa
+03/04/2024  02:43 PM    &lt;DIR>          i62717
+11/28/2023  10:56 AM    &lt;DIR>          I62717.LA
+04/27/2023  10:13 AM    &lt;DIR>          Public
+               8 File(s)        276,166 bytes
+               7 Dir(s)  168,031,649,792 bytes free
+
+C:\Users></screen>
+                    </p></dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>
